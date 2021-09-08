@@ -53,9 +53,3 @@
     font-size: bold;
     font-family: sans-serif;
   }
-  .trem {
-    display: grid;
-    grid-template-columns: 6fr 6fr 6fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 1em;
-  }
