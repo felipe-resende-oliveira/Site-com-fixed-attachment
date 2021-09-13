@@ -1,2 +1,2 @@
-alert(3078+3342);
-console.log('mensagemsinha de teste');
+
+console.log('Mensagem para pegar os dev que sempre olham o console ;)');
