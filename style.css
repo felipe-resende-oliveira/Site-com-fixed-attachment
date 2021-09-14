@@ -2,6 +2,7 @@
     box-sizing: border-box;
   }
   body {
+    scroll-behavior: smooth;
     margin: 0;
     font-family: sans-serif;
   }
@@ -49,17 +50,21 @@
     text-align: right;
   }
   
-  h1 {
+  h1, h2, p {
     text-align: center;
-    font-size: bold;
+    font-weight: bold;
     font-family: sans-serif;
   }
 .col-lg-4 {
   text-align: center;
 }
 .row {
-  margin: 10px 20px 0px 20px;
+  margin: 10px 20px 30px 20px;
+  border-bottom: 1px solid gray;
 }
 .container-1, .container-2, .container-3 {
   padding: 0px 50px 0px 50px;
+}
+contentEditable {
+  border: 1x solid white;
 }
